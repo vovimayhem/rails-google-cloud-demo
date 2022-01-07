@@ -78,7 +78,6 @@ GEM
       rack-test (>= 0.6.3)
       regexp_parser (~> 1.5)
       xpath (~> 3.2)
-    childprocess (3.0.0)
     cliver (0.3.2)
     concurrent-ruby (1.1.7)
     crass (1.0.6)
@@ -129,7 +128,7 @@ GEM
       gapic-common (~> 0.3)
       google-cloud-errors (~> 1.0)
       grpc-google-iam-v1 (>= 0.6.10, < 2.0)
-    google-protobuf (3.14.0)
+    google-protobuf (3.19.2)
     googleapis-common-protos (1.3.10)
       google-protobuf (~> 3.11)
       googleapis-common-protos-types (>= 1.0.5, < 2.0)
@@ -274,7 +273,6 @@ GEM
       rake (>= 0.8.1)
     ruby-progressbar (1.11.0)
     ruby2_keywords (0.0.2)
-    rubyzip (2.3.0)
     sass-rails (6.0.0)
       sassc-rails (~> 2.1, >= 2.1.1)
     sassc (2.4.0)
@@ -285,9 +283,6 @@ GEM
       sprockets (> 3.0)
       sprockets-rails
       tilt
-    selenium-webdriver (3.142.7)
-      childprocess (>= 0.5, < 4.0)
-      rubyzip (>= 1.2.2)
     semantic_range (2.3.1)
     signet (0.14.0)
       addressable (~> 2.3)
@@ -365,7 +360,6 @@ DEPENDENCIES
   rubocop (~> 1.7)
   ruby-debug-ide (~> 0.7.2)
   sass-rails (>= 6)
-  selenium-webdriver (~> 3.142, >= 3.142.7)
   solargraph (~> 0.40.1)
   spring
   turbolinks (~> 5)
